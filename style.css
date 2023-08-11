@@ -20,12 +20,12 @@ a{
 }
 
 #schoolname{
-    font-size: 45px;
+    font-size: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .school img{
-    width: 50px;
+    width: 2rem;
     
 }
 .subject{
@@ -37,6 +37,7 @@ a{
     display: flex;
     gap: 2rem;
     justify-content: space-between;
+    flex-wrap: wrap;
     background-color: rgb(212, 164, 102);
     padding: 10px;
     border-top-left-radius: 10px;
@@ -78,14 +79,14 @@ a{
 }
 .book{
     float: left;
-    width: 190px;
+    width: 150px;
     margin-right: 20px;
 }
 .chaptile{
     background-color: rgb(62, 212, 180);
     margin: 10px;
     border-radius: 10px;
-    width: 400px;
+    
 }
 .content{
     padding-right: 10px;
@@ -119,5 +120,12 @@ p.subject{
         grid-auto-rows: 1fr;
         gap: 2rem;
     }
-
+    #schoolname{
+        font-size: 2rem;
+    }
+    .tileimg{
+        height: 300px;
+    }
+    .school img{
+        width: 1.5rem;
 }
