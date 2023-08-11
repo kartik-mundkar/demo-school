@@ -15,7 +15,7 @@ a{
 .school{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 65px;
 }
 
@@ -36,11 +36,12 @@ a{
 .container{
     display: flex;
     gap: 2rem;
-    justify-content: center;
+    justify-content: space-between;
     background-color: rgb(212, 164, 102);
     padding: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px ;
+    
 }
 
 .title{
