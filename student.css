@@ -24,6 +24,7 @@ body{
 .menu img{
     height: 50px;
     width: 100%;
+    border-radius: 10px;
 }
 .pic{
     grid-area: 1/ 1/2/4;
