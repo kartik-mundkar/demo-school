@@ -35,7 +35,7 @@ a{
 
 .container{
     display: flex;
-    gap: 2rem;
+    gap: 1.25rem;
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: rgb(212, 164, 102);
@@ -79,7 +79,7 @@ a{
 }
 .book{
     float: left;
-    width: 150px;
+    width: 120px;
     margin-right: 20px;
 }
 .chaptile{
@@ -121,11 +121,11 @@ p.subject{
         gap: 2rem;
     }
     #schoolname{
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
     .tileimg{
-        height: 300px;
+        height: 200px;
     }
     .school img{
-        width: 1.5rem;
+        width: 1.25rem;
 }
